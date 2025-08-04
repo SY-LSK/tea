@@ -26,31 +26,8 @@ bash
 python tea.py run -p a.tea
 
 # 查看帮助
-python tea.py -h
-编写第一个 Tea 程序
-创建 hello.tea：
-
-
-tea
-Apply
-tout('Hello, Tea!');
-tin('请输入你的名字：');
-编译后自动生成的 hello.py：
-
-
-python
-Apply
-print('Hello, Tea!')
-input('请输入你的名字：')
-🛠️ 技术架构
-项目结构
-
-扩展语法（开发中）
-
-tea
-Apply
-var(name, "张三")  # 变量声明
-🎯 开发路线图
+官网：敬请期待
+# 🎯 开发路线图
 近期计划
 [ ] 添加变量声明与赋值语法
 [ ] 支持基础算术运算
@@ -61,7 +38,7 @@ var(name, "张三")  # 变量声明
 [ ] 模块导入机制
 [ ] 调试符号支持
 [ ] 性能分析工具
-🤝 参与贡献
+# 🤝 参与贡献
 我们欢迎所有形式的贡献！您可以通过以下方式参与：
 
 报告问题：在 GitHub Issues 提交发现的 Bug
