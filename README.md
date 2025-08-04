@@ -7,10 +7,7 @@ Tea 是一个轻量级的领域特定语言（DSL）编译器，专为简化 Pyt
 即时编译：支持一键将 .tea 文件编译为 .py 可执行文件
 跨平台兼容：基于 Python 构建，天然支持 Windows/Linux/macOS
 零依赖运行：编译后的 Python 文件无需额外依赖即可执行
-🚀 快速开始
-安装与配置
 
-bash
 # 克隆项目
 git clone https://github.com/SY-LSK/tea.git
 
@@ -18,11 +15,7 @@ cd tea
 
 # 创建虚拟环境（可选）
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-# 或 .venv\Scripts\activate  # Windows
-基本用法
 
-bash
 # 编译并运行示例
 python tea.py run -p a.tea
 
