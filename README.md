@@ -12,7 +12,7 @@ Tea 是一个轻量级的领域特定语言（DSL）编译器，专为简化 Pyt
 
 bash
 # 克隆项目
-git clone https://github.com/SY-LSK/tea.git
+git clone https://github.com/SY-LSK/tea.git\n
 cd tea
 
 # 创建虚拟环境（可选）
