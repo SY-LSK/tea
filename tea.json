@@ -1,0 +1,6 @@
+{
+    "version": "1.0.0",
+    "description": "Tea语言编译器 - 将.tea领域特定语言编译为可执行的Python代码",
+    "help": "help.txt",
+    "github": "https://github.com/SY-LSK/tea"
+}
