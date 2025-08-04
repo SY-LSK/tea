@@ -44,28 +44,6 @@ input('请输入你的名字：')
 🛠️ 技术架构
 项目结构
 
-plainText
-tea/
-├── tea.py              # 主入口文件
-├── using_model/        # 核心编译模块
-│   ├── tea_use.py      # 文件处理与编译流程
-│   ├── tea_compile.py  # 语法转换引擎
-│   ├── tea_object.py   # Token 对象模型
-│   └── tea_constant.py # 语言定义常量
-├── else_package/       # 工具模块
-│   ├── command_parser.py  # 命令行解析
-│   └── color_console.py   # 彩色日志输出
-├── a.tea               # 示例代码
-└── tea.json            # 项目配置
-编译流程
-词法分析：将 .tea 文件拆分为 Token 流
-语法转换：将 Token 映射为 Python 语法结构
-代码生成：输出标准 Python 文件
-即时执行：可选的自动运行编译结果
-📖 语言规范
-当前支持的语法
-| Tea 语法 | 等效 Python | 说明 | |----------|-------------|------| | tout('文本') | print('文本') | 标准输出 | | tin('提示') | input('提示') | 标准输入 |
-
 扩展语法（开发中）
 
 tea
